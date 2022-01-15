@@ -1,0 +1,19 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+dl {
+	margin-top: 10%;
+	font-size: large;
+}
+
+dt {
+	font-size: larger;
+	margin-top: 2%;
+	font-weight: 600;
+}
+
+dt::before {
+	content: 'Q - ';
+}
